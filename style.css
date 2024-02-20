@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 10px;
+        margin: 20px;
+      }
+.box {
+        border: 3px solid #666;
+        background-color: #ddd;
+        border-radius: .5em;
+        width: 150px;
+        height: 150px;
+        padding: 10px;
+        cursor: move;
+      }
+.box img{
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+  #Input{
+    margin: 20px;
+  }
+  input {
+    color:red
+  }
